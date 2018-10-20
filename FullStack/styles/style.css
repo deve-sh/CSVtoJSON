@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+
+body{
+	margin:0px;
+	font-family: Montserrat,sans-serif;
+	padding: 0px;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+#main{
+	padding: 0px;
+}
+
+button
+{
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: #007bff;
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#first{
+	width: 100%;
+	max-width: 100vw;
+	font-size: 20px;
+	overflow-x: hidden;
+	background: #ffffff;
+	text-align: center;
+	padding: 40px;
+}
+
+#first a{
+	text-decoration: none;
+	color : #000000;
+}
+
+#translators{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: #efefef;
+}
+
+#convertedtext{
+   float: right;
+   padding: 20px;
+   width: 50%;
+}
+
+#convertedjson{
+	width: 100%;
+	float: right;
+	background: #343d46;
+	padding: 20px;
+	height: 40vh;
+	overflow: auto;
+	color : #ffffff;
+	font-family: Consolas;
+	font-size : 14px;
+	word-wrap: break-word;
+	white-space: pre;
+}
+
+#textarea{
+	float: left;
+	height: 100%;
+	width: 50%;
+	padding: 20px;
+}
+
+#csvtextbox{
+	background: #343d46;
+	color: #ffffff;
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	outline: none;
+	height: 40vh;
+	white-space: pre;
+	float: left;
+	padding: 20px;
+	font-size: 14px;
+	font-family: Consolas,sans-serif;
+	overflow: auto;
+}
+
+#third{
+	padding: 30px;
+	width: 100%;
+	max-width: 100vw;
+	height: auto;
+	text-align: center;
+	font-size: 18px;
+	font-family: Montserrat,sans-serif;
+	color: #ffffff;
+	background: linear-gradient(135deg,#282828 80%,#282828 80%);
+}
+
+.socialbutton{
+	border-radius: 50%;
+	background: #ffffff;
+	padding: 10px;
+	color: #282828;
+}
+
+#fullstack{
+	background: #191919;
+	padding: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.button{
+	background : transparent;
+	padding: 10px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	transition: 0.1s;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.button:hover{
+	background: #ffffff;
+	color: #000000;
+}
+
+input[type=file] {
+  padding: 20px;
+}
