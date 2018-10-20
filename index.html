@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSV to JSON Converter</title>
+	<!-- STYLES -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/smallscreen.css" media="screen and (max-width: 900px)">
+	<link rel="stylesheet" type="text/css" href="styles/ultrasmall.css" media="screen and (max-width: 600px)">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+	<!-- META AND VIEWPORTS -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- I CREATED THIS PROJECT JUST SO I COULD USE IT. I DON'T LIKE USING SOMETHING SOMEONE ELSE BUILT. ESPECIALLY WHEN I CAN BUILD BETTER IN A LOT LESS LINES OF CODE! -->
+</head>
+<body>
+	<div id="main">
+		<div id='first'>
+			<h1>CSV To JSON!</h1>
+			<br>
+			<a href='https://github.com/deve-sh/...' target="_blank"><i class="fab fa-github fa-lg" title="View Source Code On Github"></i></a>
+		</div>
+		<div id='translators'>
+			<div id='textarea'>
+				Write Your CSV Here (Don't use spaces after commas) : 
+				<br/>
+				<br/>
+				<div id='csvtextbox' contenteditable="true"></div>
+				<br/>
+				<button onclick="csvtojson()">CONVERT</button>
+		    </div>
+		    <div id='convertedtext'>
+		    	See your JSON Here : 
+		    	<br><br>
+			    <div id='convertedjson'>[<br>]</div>
+			    <br/>
+			    <button onclick="copy()">COPY</button>
+		    </div>
+			<script type="text/javascript" src='js/webscripts.js'></script>
+	    </div>
+	    <div id='third'>
+	    	<br>
+	    	Built with passion! By a Naive Programmer!
+	    	<br><br><br>
+	    	<a href='https://github.com/deve-sh' target="_blank"><span class="socialbutton"><i class="fab fa-github-square fa-lg" title="View On Github"></i></span></a>
+	    	&nbsp&nbsp
+	    	<a href='https://instagram.com/d_e_v.e_s_h' target="_blank"><span class="socialbutton"><i class="fab fa-instagram fa-lg" title="Instagram"></i></span></a>
+	    	&nbsp&nbsp
+	    	<a href="mailto:devesh2027@gmail.com"><span class="socialbutton"><i class="fas fa-envelope fa-lg"></i></span></a>
+	    </div>
+	    <div id='fullstack'>
+	    	<a href='..Github Link..' target="_blank"><div class="button">View the Full Stack Version</div></a>
+	    </div>
+    </div>
+</body>
+</html>
