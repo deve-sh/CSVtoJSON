@@ -42,8 +42,13 @@
 
 			if(basename($_FILES["csvfile"]["name"])!="")
 			{
-			    $target_dir = "files/";
-				$target_file = $target_dir . basename($_FILES["csvfile"]["name"]);
+			        $target_dir = "files/";
+				
+				$randstr=uniqid();
+				$randstr=crypt($randstr);
+				$randstr=md5($randstr);
+				
+				$target_file = $target_dir . $randstr;
 
 				if (move_uploaded_file($_FILES["csvfile"]["tmp_name"], $target_file)) {
 					$_SESSION['verifier']=true;
