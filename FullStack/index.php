@@ -1,5 +1,6 @@
 <?php
    session_start();      // Seperate sessions for each user.
+   error_reporting(0);   // Error Reporting Turned Off.
    $_SESSION['verifier']=false;
 ?>
 
