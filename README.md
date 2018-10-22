@@ -1,5 +1,4 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<script src="https://raw.githubusercontent.com/deve-sh/CSVtoJSON/master/js/webscripts.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 <link rel="stylesheet" type="text/css" href="styles/smallscreen.css" media="screen and (max-width: 900px)">
 <link rel="stylesheet" type="text/css" href="styles/ultrasmall.css" media="screen and (max-width: 600px)">
@@ -14,25 +13,6 @@ A Web Converter to Convert CSVs to JSON.
   <li>Efficient (Performs the job in the least number of lines of code.)</li>
   <li>Responsive</li>
 </ul>
-
-### Try it Out
-
-<div style="width: 100%;">
-  <div id="textarea">
-    Write Your CSV Here (Don't use spaces after commas) : 
-    <br/>
-    <br/>
-    <div id="csvtextbox" contenteditable="true"></div>
-    <br/>
-    <button onclick="csvtojson()">CONVERT</button>
-    </div>
-  <div id="convertedtext">
-      See your JSON Here : 
-      <br><br>
-      <div id="convertedjson">[<br>]</div>
-      <br/>
-      <button onclick="copy()">COPY</button>
-</div>
 
 ### Extra Featurette
 
