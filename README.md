@@ -12,6 +12,7 @@ A Web Converter to Convert CSVs to JSON.
   <li>Fast</li>
   <li>Efficient (Performs the job in the least number of lines of code.)</li>
   <li>Responsive</li>
+  <li>No Dependencies</li>
 </ul>
 
 ### Extra Featurette
